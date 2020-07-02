@@ -4,8 +4,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-		<link rel="stylesheet" type="text/css" href="css/progress.css">
-
+	<link rel="stylesheet" type="text/css" href="css/ourteam.css">
+	<link rel="stylesheet" type="text/css" href="css/progress.css">
 
 
 	<!-- Required meta tags -->
@@ -14,6 +14,8 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 	<title>Homepage</title>
 </head>
@@ -70,91 +72,171 @@
 <!--Content ends-->			
 </div> 
 <div id="section_two">
-	<div class="container">
+	<!-- START TEAM -->
+	<section id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-12 pull-right">
+					<div class="team-section-text">
+						<div class="section-count">
+							<span>05</span>
+						</div>
+						<!-- END section-count-->
+						<div class="section-text">
+							<h2 class="section-title">WeBoostIT TEAM</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl dolor, faucibus euismod mollis a, tincidunt id lectus. Ut eleifend euismod leo, vel hendrerit sem tincidunt a. Fusce libero quam, condimentum ac lectus porttitor, porttitor dignissim eros. Integer dictum nibh quis dui egestas, in lobortis purus luctus. Ut cursus, sapien ut scelerisque sagittis, dolor metus dictum enim, ut pellentesque quam metus vel purus. Maecenas eget eros scelerisque, venenatis ligula non, ultricies est. Nam faucibus urna quis lacus finibus hendrerit. Nullam fringilla condimentum justo vitae cursus.
+							</p>
+						</div>
+						<!-- END section-text-->
+					</div>
+					<!-- END team-section-text-->
+				</div>
+				<!-- END col-md-5 col-sm-12 pull-right-->
+				<div class="col-md-7 col-sm-12">
+					<div class="row">
+						<div class="col-md-3 col-sm-4">
+							<div class="team-list">
+								<ul>
+									<li class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".1s">
+										<a href="#team-1" data-team="team-1">
+											<figure>
+												<img src="http://echotheme.com/naive-v2/static-image/img/man/1.jpg" alt="Team Member image One">
+											</figure>
+										</a>
+									</li>
+									<li class="active wow zoomIn" data-wow-duration="1s" data-wow-delay=".3s">
+										<a href="#team-2" data-team="team-2">
+											<figure>
+												<img src="http://echotheme.com/naive-v2/static-image/img/man/2.jpg" alt="Team Member image two">
+											</figure>
+										</a>
+									</li>
+									<li class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+										<a href="#team-3" data-team="team-3">
+											<figure>
+												<img src="http://echotheme.com/naive-v2/static-image/img/man/3.jpg" alt="Team Member image three">
+											</figure>
+										</a>
+									</li>
+									<li class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".7s">
+										<a href="#team-4" data-team="team-4">
+											<figure>
+												<img src="http://echotheme.com/naive-v2/static-image/img/man/4.jpg" alt="Team Member image four">
+											</figure>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- END team-list-->
+						</div>
+						<!-- END col-sm-4-->
+						<div class="col-md-9 col-sm-8">
 
-		<div class="row heading">
-			<div class="col-md-6 col-md-offset-3">
-				<h2 class="text-center bottom-line">Meet Our Team</h2>
-				<p class="subheading text-center">Creative Nerds</p>
+							<div id="team-1" class="team-single">
+								<div class="team-img">
+									<img src="http://echotheme.com/naive-v2/static-image/img/man/1.jpg" alt="">
+									<div class="team-social">
+										<ul>
+											<li><a href=""><i class="fa fa-facebook"></i></a></li>
+											<li><a href=""><i class="fa fa-twitter"></i></a></li>
+											<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+											<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+									<!-- END team-social-->
+								</div>
+								<!-- END team-img-->
+								<div class="team-info text-center">
+									<h4>Andy Maray</h4>
+									<p>Founder &amp; CEO</p>
+								</div>
+								<!-- END team-info-->
+							</div>
+							<!-- END team-single-->
+
+
+							<div id="team-2" class="team-single active">
+								<div class="team-img">
+									<img src="http://echotheme.com/naive-v2/static-image/img/man/2.jpg" alt="">
+									<div class="team-social">
+										<ul>
+											<li><a href=""><i class="fa fa-facebook"></i></a></li>
+											<li><a href=""><i class="fa fa-twitter"></i></a></li>
+											<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+											<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+									<!-- END team-social-->
+								</div>
+								<!-- END team-img-->
+								<div class="team-info text-center">
+									<h4>Gustavo Souza</h4>
+									<p>Naive Designer</p>
+								</div>
+								<!-- END team-info-->
+							</div>
+							<!-- END team-single-->
+
+
+							<div id="team-3" class="team-single">
+								<div class="team-img">
+									<img src="http://echotheme.com/naive-v2/static-image/img/man/3.jpg" alt="">
+									<div class="team-social">
+										<ul>
+											<li><a href=""><i class="fa fa-facebook"></i></a></li>
+											<li><a href=""><i class="fa fa-twitter"></i></a></li>
+											<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+											<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+									<!-- END team-social-->
+								</div>
+								<!-- END team-img-->
+								<div class="team-info text-center">
+									<h4>Nikolaos Markopoulos</h4>
+									<p>Developer</p>
+								</div>
+								<!-- END team-info-->
+							</div>
+							<!-- END team-single-->
+
+
+							<div id="team-4" class="team-single">
+								<div class="team-img">
+									<img src="http://echotheme.com/naive-v2/static-image/img/man/4.jpg" alt="">
+									<div class="team-social">
+										<ul>
+											<li><a href=""><i class="fa fa-facebook"></i></a></li>
+											<li><a href=""><i class="fa fa-twitter"></i></a></li>
+											<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+											<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+									<!-- END team-social-->
+								</div>
+								<!-- END team-img-->
+								<div class="team-info text-center">
+									<h4>Nur jaman</h4>
+									<p>Developer</p>
+								</div>
+								<!-- END team-info-->
+							</div>
+							<!-- END team-single-->
+
+						</div>
+						<!-- END col-sm-8-->
+					</div>
+					<!-- END row-->
+				</div>
+				<!-- END col-md-7 col-sm-12 -->
 			</div>
+			<!-- END row-->
 		</div>
-
-		<div class="row team-row">
-
-			<div class="col-md-4 col-sm-6 team-wrap">
-				<div class="team-member text-center">
-					<div class="team-img">
-						<img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="">
-						<div class="overlay">
-							<div class="team-details text-center">
-								<p>
-									Our web design team will spend time with our digital marketing team.
-								</p>
-								<div class="socials mt-20">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-envelope"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<h6 class="team-title">John Marshall</h6>
-					<span>Designer</span>
-				</div>
-			</div>
-			<!-- end team member -->
-
-			<div class="col-md-4 col-sm-6 team-wrap">
-				<div class="team-member text-center">
-					<div class="team-img">
-						<img src="http://deothemes.com/envato/enigma/html/img/team_2.jpg" alt="">
-						<div class="overlay">
-							<div class="team-details text-center">
-								<p>
-									Our web design team will spend time with our digital marketing team.
-								</p>
-								<div class="socials mt-20">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-envelope"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<h6 class="team-title">Steve Roberts</h6>
-					<span>Photographer</span>
-				</div>
-			</div>
-			<!-- end team member -->
-
-			<div class="col-md-4 col-sm-6 team-wrap">
-				<div class="team-member last text-center">
-					<div class="team-img">
-						<img src="http://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="">
-						<div class="overlay">
-							<div class="team-details text-center">
-								<p>
-									Our web design team will spend time with our digital marketing team.
-								</p>
-								<div class="socials mt-20">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-envelope"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<h6 class="team-title">Michael Cartney</h6>
-					<span>Designer</span>
-				</div>
-			</div>
-			<!-- end team member -->
-
-		</div>
-	</div>
+		<!-- END container-->
+	</section>
+	<!-- END team-->
+	<!-- END TEAM -->
 </div>
 <div id="section_three">
 	<div class="our-service-sass hide-pr show-pr">
@@ -225,141 +307,142 @@
 	</div>
 </div> 		
 <div id = "section_four">
-<div class="container">
-        <header>
-            <h1>Pure <strong>CSS</strong> Progress</h1>
-            <p>... a pretty liquid progress-bar.</p>
-        </header>
-        <section>
-            <article>
-                <input type="radio" name="switch-color" id="red" checked>
-                <input type="radio" name="switch-color" id="cyan">
-                <input type="radio" name="switch-color" id="lime">
-                <div class="chart">
-                    <div class="bar bar-75 white">
-                        <div class="face top">
-                            <div class="growing-bar"></div>
-                        </div>
-                        <div class="face side-0">
-                            <div class="growing-bar"></div>
-                        </div>
-                        <div class="face floor">
-                            <div class="growing-bar"></div>
-                        </div>
-                        <div class="face side-a"></div>
-                        <div class="face side-b"></div>
-                        <div class="face side-1">
-                            <div class="growing-bar"></div>
-                        </div>
-                    </div>
-                </div>
-                <p>Try another color :)</p>
-                <nav class="actions">
-                    <label for="red">Red</label>
-                    <label for="cyan">Cyan</label>
-                    <label for="lime">Lime</label>
-                </nav>
-            </article>
-            <article>
-                <input type="radio" name="switch-pos" id="pos-0">
-                <input type="radio" name="switch-pos" id="pos-1">
-                <input type="radio" name="switch-pos" id="pos-2" checked>
-                <input type="radio" name="switch-pos" id="pos-3">
-                <div class="chart">
-                    <div class="bar bar-30 white">
-                        <div class="face top">
-                            <div class="growing-bar"></div>
-                        </div>
-                        <div class="face side-0">
-                            <div class="growing-bar"></div>
-                        </div>
-                        <div class="face floor">
-                            <div class="growing-bar"></div>
-                        </div>
-                        <div class="face side-a"></div>
-                        <div class="face side-b"></div>
-                        <div class="face side-1">
-                            <div class="growing-bar"></div>
-                        </div>
-                    </div>
-                </div>
-                <p>Try another position :)</p>
-                <nav class="actions">
-                    <label for="pos-0">1/4</label>
-                    <label for="pos-1">2/4</label>
-                    <label for="pos-2">3/4</label>
-                    <label for="pos-3">Full</label>
-                </nav>
-            </article>
-            <article>
-                <input type="radio" name="exercises" id="exercise-1" checked>
-                <input type="radio" name="exercises" id="exercise-2">
-                <input type="radio" name="exercises" id="exercise-3">
-                <input type="radio" name="exercises" id="exercise-4">
-                <div class="chart grid">
-                    <div class="exercise second">
-                        <div class="bar bar-45 navy lightGray-face">
-                            <div class="face top">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face side-0">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face floor">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face side-a"></div>
-                            <div class="face side-b"></div>
-                            <div class="face side-1">
-                                <div class="growing-bar"></div>
-                            </div>
-                        </div>
-                        <div class="bar bar-80 yellow lightGray-face">
-                            <div class="face top">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face side-0">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face floor">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face side-a"></div>
-                            <div class="face side-b"></div>
-                            <div class="face side-1">
-                                <div class="growing-bar"></div>
-                            </div>
-                        </div>
-                        <div class="bar bar-60 red lightGray-face">
-                            <div class="face top">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face side-0">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face floor">
-                                <div class="growing-bar"></div>
-                            </div>
-                            <div class="face side-a"></div>
-                            <div class="face side-b"></div>
-                            <div class="face side-1">
-                                <div class="growing-bar"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p><em>It's liquid</em>, so adding a bit of code you can make charts like this :P</p>
-                <nav class="actions">
-                    <label for="exercise-1">E-1</label>
-                    <label for="exercise-2">E-2</label>
-                    <label for="exercise-3">E-3</label>
-                    <label for="exercise-4">E-4</label>
-                </nav>
-            </article>
-        </section>
-    </div> 	
+	<div class="container">
+		<header>
+			<h1>Pure <strong>CSS</strong> Progress</h1>
+			<p>... a pretty liquid progress-bar.</p>
+		</header>
+		<section>
+			<article>
+				<input type="radio" name="switch-color" id="red" checked>
+				<input type="radio" name="switch-color" id="cyan">
+				<input type="radio" name="switch-color" id="lime">
+				<div class="chart">
+					<div class="bar bar-75 white">
+						<div class="face top">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face side-0">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face floor">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face side-a"></div>
+						<div class="face side-b"></div>
+						<div class="face side-1">
+							<div class="growing-bar"></div>
+						</div>
+					</div>
+				</div>
+				<p>Try another color :)</p>
+				<nav class="actions">
+					<label for="red">Red</label>
+					<label for="cyan">Cyan</label>
+					<label for="lime">Lime</label>
+				</nav>
+			</article>
+			<article>
+				<input type="radio" name="switch-pos" id="pos-0">
+				<input type="radio" name="switch-pos" id="pos-1">
+				<input type="radio" name="switch-pos" id="pos-2" checked>
+				<input type="radio" name="switch-pos" id="pos-3">
+				<div class="chart">
+					<div class="bar bar-30 white">
+						<div class="face top">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face side-0">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face floor">
+							<div class="growing-bar"></div>
+						</div>
+						<div class="face side-a"></div>
+						<div class="face side-b"></div>
+						<div class="face side-1">
+							<div class="growing-bar"></div>
+						</div>
+					</div>
+				</div>
+				<p>Try another position :)</p>
+				<nav class="actions">
+					<label for="pos-0">1/4</label>
+					<label for="pos-1">2/4</label>
+					<label for="pos-2">3/4</label>
+					<label for="pos-3">Full</label>
+				</nav>
+			</article>
+			<article>
+				<input type="radio" name="exercises" id="exercise-1" checked>
+				<input type="radio" name="exercises" id="exercise-2">
+				<input type="radio" name="exercises" id="exercise-3">
+				<input type="radio" name="exercises" id="exercise-4">
+				<div class="chart grid">
+					<div class="exercise second">
+						<div class="bar bar-45 navy lightGray-face">
+							<div class="face top">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face side-0">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face floor">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face side-a"></div>
+							<div class="face side-b"></div>
+							<div class="face side-1">
+								<div class="growing-bar"></div>
+							</div>
+						</div>
+						<div class="bar bar-80 yellow lightGray-face">
+							<div class="face top">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face side-0">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face floor">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face side-a"></div>
+							<div class="face side-b"></div>
+							<div class="face side-1">
+								<div class="growing-bar"></div>
+							</div>
+						</div>
+						<div class="bar bar-60 red lightGray-face">
+							<div class="face top">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face side-0">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face floor">
+								<div class="growing-bar"></div>
+							</div>
+							<div class="face side-a"></div>
+							<div class="face side-b"></div>
+							<div class="face side-1">
+								<div class="growing-bar"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p><em>It's liquid</em>, so adding a bit of code you can make charts like this :P</p>
+				<nav class="actions">
+					<label for="exercise-1">E-1</label>
+					<label for="exercise-2">E-2</label>
+					<label for="exercise-3">E-3</label>
+					<label for="exercise-4">E-4</label>
+				</nav>
+			</article>
+		</section>
+	</div> 	
 </div>
 
+<script src="js/ourteam.js"></script>
 
 <script src="js/code.js"></script>
 <!-- Optional JavaScript -->
@@ -367,6 +450,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </div>
 </body>
 </html>
