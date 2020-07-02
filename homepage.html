@@ -3,6 +3,8 @@
 <head>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/Homepage.css">
+
 
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -16,190 +18,218 @@
 <body>
 	<div class ="container-fluid">
 		<!-- start navbar -->
-		<ul class="nav justify-content-end">
-			<li class="nav-item">
-				<a class="nav-link active" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#section_two">about us </a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
-			</li>		
-
-		</ul>	
 		<!-- end navbar -->
 
 		<div id="section_one">
-			<h1 class="text-center"> Your Software Engineer </h1>
-			<p class="text-center">Left aligned text on all viewport sizes.</p>
-		</div> 
-		<div id="section_two">
-			<div class="container">
+<!--Hey! This is the original version
+	of Simple CSS Waves-->
 
-				<div class="row heading">
-					<div class="col-md-6 col-md-offset-3">
-						<h2 class="text-center bottom-line">Meet Our Team</h2>
-						<p class="subheading text-center">Creative Nerds</p>
-					</div>
-				</div>
+	<div class="header">
 
-				<div class="row team-row">
+		<!--Content before waves-->
+		<div class="inner-header flex">
+			<!--Just the logo.. Don't mind this-->
+			<svg version="1.1" class="logo" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" xml:space="preserve">
+			<path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
+			<g><path fill="#fff"
+				d="M250.4,0.8C112.7,0.8,1,112.4,1,250.2c0,137.7,111.7,249.4,249.4,249.4c137.7,0,249.4-111.7,249.4-249.4
+				C499.8,112.4,388.1,0.8,250.4,0.8z M383.8,326.3c-62,0-101.4-14.1-117.6-46.3c-17.1-34.1-2.3-75.4,13.2-104.1
+				c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3,62.4c-19.8,19.1-51.6,26.9-100.2,24.6l1.8-39.7		c35.9,1.6,59.7-2.9,70.8-13.6c8.9-8.6,11.1-22.9,13.5-39.6c6.3-42,14.8-99.4,141.4-99.4h41L333,166c-12.6,16-45.4,68.2-31.2,96.2	c9.2,18.3,41.5,25.6,91.2,24.2l1.1,39.8C390.5,326.2,387.1,326.3,383.8,326.3z" />
+			</g>
+		</svg>
+		<h1>WeBoostIT</h1>
+	</div>
 
-					<div class="col-md-4 col-sm-6 team-wrap">
-						<div class="team-member text-center">
-							<div class="team-img">
-								<img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="">
-								<div class="overlay">
-									<div class="team-details text-center">
-										<p>
-											Our web design team will spend time with our digital marketing team.
-										</p>
-										<div class="socials mt-20">
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-google-plus"></i></a>
-											<a href="#"><i class="fa fa-envelope"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<h6 class="team-title">John Marshall</h6>
-							<span>Designer</span>
-						</div>
-					</div>
-					<!-- end team member -->
+	<!--Waves Container-->
+	<div>
+		<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+		viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+		<defs>
+			<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+		</defs>
+		<g class="parallax">
+			<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+			<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+			<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+			<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+		</g>
+	</svg>
+</div>
+<!--Waves end-->
 
-					<div class="col-md-4 col-sm-6 team-wrap">
-						<div class="team-member text-center">
-							<div class="team-img">
-								<img src="http://deothemes.com/envato/enigma/html/img/team_2.jpg" alt="">
-								<div class="overlay">
-									<div class="team-details text-center">
-										<p>
-											Our web design team will spend time with our digital marketing team.
-										</p>
-										<div class="socials mt-20">
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-google-plus"></i></a>
-											<a href="#"><i class="fa fa-envelope"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<h6 class="team-title">Steve Roberts</h6>
-							<span>Photographer</span>
-						</div>
-					</div>
-					<!-- end team member -->
+</div>
+<!--Header ends-->
 
-					<div class="col-md-4 col-sm-6 team-wrap">
-						<div class="team-member last text-center">
-							<div class="team-img">
-								<img src="http://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="">
-								<div class="overlay">
-									<div class="team-details text-center">
-										<p>
-											Our web design team will spend time with our digital marketing team.
-										</p>
-										<div class="socials mt-20">
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-google-plus"></i></a>
-											<a href="#"><i class="fa fa-envelope"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<h6 class="team-title">Michael Cartney</h6>
-							<span>Designer</span>
-						</div>
-					</div>
-					<!-- end team member -->
+<!--Content starts-->
+<div class="content flex">
+	<p>Bilal|Sofian|Zakaria</p>
+</div>
+<!--Content ends-->			
+</div> 
+<div id="section_two">
+	<div class="container">
 
-				</div>
+		<div class="row heading">
+			<div class="col-md-6 col-md-offset-3">
+				<h2 class="text-center bottom-line">Meet Our Team</h2>
+				<p class="subheading text-center">Creative Nerds</p>
 			</div>
 		</div>
-		<div id="section_three">
-			<div class="our-service-sass hide-pr show-pr">
-				<div class="container">
-					<div class="theme-title-one text-center">
-						<div class="icon-box hide-pr">
-							<img src="http://html.creativegigs.net/rogan/rogan-c/html/images/shape/bg-shape1.svg" alt="" class="bg-shape">
-							<img src="http://html.creativegigs.net/rogan/rogan-c/html/images/icon/icon23.svg" alt="" class="icon">
+
+		<div class="row team-row">
+
+			<div class="col-md-4 col-sm-6 team-wrap">
+				<div class="team-member text-center">
+					<div class="team-img">
+						<img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="">
+						<div class="overlay">
+							<div class="team-details text-center">
+								<p>
+									Our web design team will spend time with our digital marketing team.
+								</p>
+								<div class="socials mt-20">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-envelope"></i></a>
+								</div>
+							</div>
 						</div>
-						<h2 class="main-title">Provide awesome customer service <br> with our tools.</h2>
-					</div> <!-- /.theme-title-one -->
-					
-					<div class="inner-wrapper">
-						<div class="row">
-							<div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up">
-								<div class="service-block">
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<div class="hover-content"></div>
-									<i class="flaticon-web icon-s"></i>
-									<h5 class="title"><a href="#">User Friendly dashboard &amp; Cool Interface.</a></h5>
-									<p>Lorem ipsum dolor si amet, an dusino situ  sint pertinacia constituto, mir es dignsius quo great.</p>
-									<a href="#" class="detail-button"><i class="icon-img"><img src="https://image.flaticon.com/icons/svg/1027/1027567.svg"></i></a>
-								</div> <!-- /.service-block -->
-							</div> <!-- /.single-block -->
-							<div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-								<div class="service-block">
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<div class="hover-content"></div>
-									<i class="flaticon-value icon-s"></i>
-									<h5 class="title"><a href="#">Thousand of features and Custom option.</a></h5>
-									<p>Lorem ipsum dolor si amet, an dusino situ  sint pertinacia constituto, mir es dignsius quo great.</p>
-									<a href="#" class="detail-button"><i class="icon-img"><img src="https://image.flaticon.com/icons/svg/1467/1467472.svg" width="100%"></i></a>
-								</div> <!-- /.service-block -->
-							</div> <!-- /.single-block -->
-							<div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-								<div class="service-block">
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<span class="snow-dot"></span>
-									<div class="hover-content"></div>
-									<i class="flaticon-login icon-s"></i>
-									<h5 class="title"><a href="#">Strong Managment &amp; Security.</a></h5>
-									<p>Lorem ipsum dolor si amet, an dusino situ  sint pertinacia constituto, mir es dignsius quo great.</p>
-									<a href="#" class="detail-button"><i class="icon-img">
-										<img src="https://image.flaticon.com/icons/svg/1467/1467468.svg" width="100%">
-									</i></a>
-								</div> <!-- /.service-block -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.row -->
-					</div> <!-- /.inner-wrapper -->
-				</div> <!-- /.container -->
+					</div>
+					<h6 class="team-title">John Marshall</h6>
+					<span>Designer</span>
+				</div>
 			</div>
-		</div> 		
+			<!-- end team member -->
 
+			<div class="col-md-4 col-sm-6 team-wrap">
+				<div class="team-member text-center">
+					<div class="team-img">
+						<img src="http://deothemes.com/envato/enigma/html/img/team_2.jpg" alt="">
+						<div class="overlay">
+							<div class="team-details text-center">
+								<p>
+									Our web design team will spend time with our digital marketing team.
+								</p>
+								<div class="socials mt-20">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-envelope"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h6 class="team-title">Steve Roberts</h6>
+					<span>Photographer</span>
+				</div>
+			</div>
+			<!-- end team member -->
 
+			<div class="col-md-4 col-sm-6 team-wrap">
+				<div class="team-member last text-center">
+					<div class="team-img">
+						<img src="http://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="">
+						<div class="overlay">
+							<div class="team-details text-center">
+								<p>
+									Our web design team will spend time with our digital marketing team.
+								</p>
+								<div class="socials mt-20">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-envelope"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h6 class="team-title">Michael Cartney</h6>
+					<span>Designer</span>
+				</div>
+			</div>
+			<!-- end team member -->
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		</div>
 	</div>
+</div>
+<div id="section_three">
+	<div class="our-service-sass hide-pr show-pr">
+		<div class="container">
+			<div class="theme-title-one text-center">
+				<div class="icon-box hide-pr">
+					<img src="http://html.creativegigs.net/rogan/rogan-c/html/images/shape/bg-shape1.svg" alt="" class="bg-shape">
+					<img src="http://html.creativegigs.net/rogan/rogan-c/html/images/icon/icon23.svg" alt="" class="icon">
+				</div>
+				<h2 class="main-title">Provide awesome customer service <br> with our tools.</h2>
+			</div> <!-- /.theme-title-one -->
+
+			<div class="inner-wrapper">
+				<div class="row">
+					<div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up">
+						<div class="service-block">
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<div class="hover-content"></div>
+							<i class="flaticon-web icon-s"></i>
+							<h5 class="title"><a href="#">User Friendly dashboard &amp; Cool Interface.</a></h5>
+							<p>Lorem ipsum dolor si amet, an dusino situ  sint pertinacia constituto, mir es dignsius quo great.</p>
+							<a href="#" class="detail-button"><i class="icon-img"><img src="https://image.flaticon.com/icons/svg/1027/1027567.svg"></i></a>
+						</div> <!-- /.service-block -->
+					</div> <!-- /.single-block -->
+					<div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+						<div class="service-block">
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<div class="hover-content"></div>
+							<i class="flaticon-value icon-s"></i>
+							<h5 class="title"><a href="#">Bilal verandwe</a></h5>
+							<p>Lorem ipsum dolor si amet, an dusino situ  sint pertinacia constituto, mir es dignsius quo great.</p>
+							<a href="#" class="detail-button"><i class="icon-img"><img src="https://image.flaticon.com/icons/svg/1467/1467472.svg" width="100%"></i></a>
+						</div> <!-- /.service-block -->
+					</div> <!-- /.single-block -->
+					<div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+						<div class="service-block">
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<span class="snow-dot"></span>
+							<div class="hover-content"></div>
+							<i class="flaticon-login icon-s"></i>
+							<h5 class="title"><a href="#">Strong Managment &amp; Security.</a></h5>
+							<p>Lorem ipsum dolor si amet, an dusino situ  sint pertinacia constituto, mir es dignsius quo great.</p>
+							<a href="#" class="detail-button"><i class="icon-img">
+								<img src="https://image.flaticon.com/icons/svg/1467/1467468.svg" width="100%">
+							</i></a>
+						</div> <!-- /.service-block -->
+					</div> <!-- /.single-block -->
+				</div> <!-- /.row -->
+			</div> <!-- /.inner-wrapper -->
+		</div> <!-- /.container -->
+	</div>
+</div> 		
+
+
+<script src="js/code.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
